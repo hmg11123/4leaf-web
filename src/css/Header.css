@@ -1,0 +1,36 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: column;
+    width: 164px;
+    height: 531px;
+    border-bottom-right-radius: 85px;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    margin-top: 32px;
+    margin-bottom: 83px;
+    width: 160px;
+    height: 45.44px;
+}
+
+.login {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.login li {
+    margin-bottom: 12px;
+}
+
+.header .main {
+    margin-left: 20px;
+    margin-top: 86px;
+}
+
+.header .main li {
+    margin-bottom: 12PX;
+}
