@@ -34,3 +34,11 @@
 .header .main li {
     margin-bottom: 12PX;
 }
+
+.header input {
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+}

@@ -15,16 +15,16 @@ class Header extends React.Component {
 
                     <ul className="login">
                         <li>
-                            SIGN IN
-                            </li>
+                            <input type="button" value="SIGN IN" />
+                        </li>
                         <li>
-                            SIGN UP
-                            </li>
+                            <input type="button" value="SIGN UP" />
+                        </li>
                     </ul>
                     <ul className="main">
-                        <li>회사소개</li>
-                        <li>개발의뢰</li>
-                        <li>문의하기</li>
+                        <li><input type="button" value="회사소개" /></li>
+                        <li><input type="button" value="의뢰하기" /></li>
+                        <li><input type="button" value="문의하기" /></li>
                     </ul>
                 </div>
             </div>
