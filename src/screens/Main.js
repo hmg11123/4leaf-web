@@ -1,5 +1,5 @@
 import React from "react";
-import { faChevronRight, faChevronLeft, faCaretDown } from "@fortawesome/free-solid-svg-icons"
+import { faChevronRight, faChevronLeft, faCaretDown, faChevronCircleUp } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 class Main extends React.Component {
@@ -19,6 +19,9 @@ class Main extends React.Component {
                         <div className="h_icon-caret">
                             <FontAwesomeIcon icon={faCaretDown} />
                         </div>
+                        <button className="h_icon-chevron">
+                            <FontAwesomeIcon icon={faChevronCircleUp} className="chevron-up" />
+                        </button>
                     </div>
                 </div>
                 <div>
