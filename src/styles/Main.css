@@ -1,3 +1,8 @@
+.Main {
+    background-color: #ECECEC;
+}
+
+
 .header__main {
     width: 100%;
     height: 100vh;
@@ -88,4 +93,89 @@
 
 .h_icon .h_icon-chevron .chevron-up {
     margin-right: 65px;
+}
+
+.middle_main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_main .middle_main-txt1 {
+    display: flex;
+    font-size: 30px;
+    margin-top: 176px;
+}
+
+.middle_main .middle_main-txt1-1 {
+    color: #FFC300;
+    border-bottom: solid 1px #FFC300;
+}
+
+
+.middle_main .middle_main-txt2 {
+    display: flex;
+    margin-top: 132px;
+    font-size: 20px;
+}
+
+.middle_main-txt2 .middle_main-txt2-1  {
+    color: #FFC300;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn input {
+    margin-top: 187px;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFC300;
+    width: 234px;
+    height: 69px;
+    border-radius: 20px;
+}
+
+.bottom_main {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-title {
+    color: #FFC300;
+    font-size: 25px;
+}
+
+.bottom_main .line {
+    margin-top: 13px;
+    width: 35%;
+    border-bottom: solid 3px black;
+}
+
+.list {
+    margin-top: 112px;
+    height: 260px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list ul {
+    display: flex;
+    
 }

@@ -5,7 +5,7 @@ import { HashRouter as Router, Route, Link } from 'react-router-dom';
 class Header extends React.Component {
     render() {
         return (
-            <div>
+            <header>
                 <div className="header">
                     <Router>
                         <Link to="/">
@@ -27,7 +27,7 @@ class Header extends React.Component {
                         <li><input type="button" value="문의하기" /></li>
                     </ul>
                 </div>
-            </div>
+            </header>
         )
     }
 }
