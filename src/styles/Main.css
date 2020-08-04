@@ -14,7 +14,7 @@
     background-color: rgba(0, 0, 0, 0.34);
     color: white;
     margin-top: 170px;
-    margin-left: 293px;
+    margin-left: 263px;
     position: absolute;
     width: 902px;
     height: 229px;
@@ -33,44 +33,44 @@
     margin-left: 282px;
 }
 
-.h_icon {
-}
-
 .h_icon .h_icon-arrow {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: absolute;
     justify-content: space-between;
-    
 }
 
 
 .h_icon .h_icon-arrow .arrow-left {
-    margin-left: 236px;
+    margin-left: 206px;
 }
 
 .h_icon .h_icon-arrow .arrow-right {
-    margin-right: 43px;
+    margin-left: 1177px;
 }
 
 .h_icon .h_icon-arrow .arrow-left,
 .h_icon .h_icon-arrow .arrow-right {
+    position: absolute;
     color: #707070;
-    background-color: rgba(213, 213, 213, 0.25);
     font-size: 60px;
 
 }
 
-.h_icon .h_icon-caret {
+.h_icon .h_icon-arrow .arrow-left:hover,
+.h_icon .h_icon-arrow .arrow-right:hover {
+    background-color: rgba(213, 213, 213, 0.25);
+}
+
+.h_icon .caret {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    margin-top: 650px;
+    margin-top: 325px;
     font-size: 50px;
     color: #FFC300;
 }
@@ -147,7 +147,7 @@
 
 .bottom_main {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,13 +155,14 @@
 }
 
 .b-title {
+    margin-top: 112px;
     color: #FFC300;
     font-size: 25px;
 }
 
 .bottom_main .line {
     margin-top: 13px;
-    width: 35%;
+    width: 45%;
     border-bottom: solid 3px black;
 }
 
@@ -173,9 +174,25 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 114px;
+}
+
+
+.btn input:hover {
+    background: none;
+    border: 3px solid #FFC300;
+    color: black;
 }
 
 .list ul {
+    width: 100%;
+    margin-bottom: 55px;
     display: flex;
-    
+    justify-content: space-around;
+}
+
+.list li {
+    width: 190px;
+    height: 50px;
+    background-color: white;
 }

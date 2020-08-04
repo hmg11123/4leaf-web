@@ -15,16 +15,22 @@ class Header extends React.Component {
 
                     <ul className="login">
                         <li>
-                            <input type="button" value="SIGN IN" />
+                            <input type="button" value="SIGN IN" className="h-btn" />
                         </li>
                         <li>
-                            <input type="button" value="SIGN UP" />
+                            <input type="button" value="SIGN UP" className="h-btn" />
                         </li>
                     </ul>
                     <ul className="main">
-                        <li><input type="button" value="회사소개" /></li>
-                        <li><input type="button" value="의뢰하기" /></li>
-                        <li><input type="button" value="문의하기" /></li>
+                        <li>
+                            <input type="button" value="회사소개" className="h-btn" />
+                        </li>
+                        <li>
+                            <input type="button" value="의뢰하기" className="h-btn" />
+                        </li>
+                        <li>
+                            <input type="button" value="문의하기" className="h-btn" />
+                        </li>
                     </ul>
                 </div>
             </header>

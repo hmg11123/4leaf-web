@@ -53,3 +53,8 @@
     border: none;
     color: white;
 }
+
+.header .h-btn:hover {
+    font-size: 18px;
+    color: #FFC300;
+}

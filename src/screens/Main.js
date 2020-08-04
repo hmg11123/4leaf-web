@@ -15,9 +15,8 @@ class Main extends React.Component {
                         <div className="h_icon-arrow">
                             <FontAwesomeIcon icon={faChevronLeft} className="arrow-left" />
                             <FontAwesomeIcon icon={faChevronRight} className="arrow-right" />
-                        </div>
-                        <div className="h_icon-caret">
-                            <FontAwesomeIcon icon={faCaretDown} />
+
+                            <FontAwesomeIcon icon={faCaretDown} className="caret" />
                         </div>
                         <button className="h_icon-chevron">
                             <FontAwesomeIcon icon={faChevronCircleUp} className="chevron-up" />
@@ -58,25 +57,25 @@ class Main extends React.Component {
                     <div className="line"></div>
                     <div className="list">
                         <ul>
-                            <li>타 사이트 로고 -1</li>
-                            <li>타 사이트 로고 -2</li>
-                            <li>타 사이트 로고 -3</li>
-                            <li>타 사이트 로고 -4</li>
-                            <li>타 사이트 로고 -5</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         <ul>
-                            <li>타 사이트 로고 -6</li>
-                            <li>타 사이트 로고 -7</li>
-                            <li>타 사이트 로고 -8</li>
-                            <li>타 사이트 로고 -9</li>
-                            <li>타 사이트 로고 -10</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         <ul>
-                            <li>타 사이트 로고 -11</li>
-                            <li>타 사이트 로고 -12</li>
-                            <li>타 사이트 로고 -13</li>
-                            <li>타 사이트 로고 -14</li>
-                            <li>타 사이트 로고 -15</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
 
                         </ul>
                     </div>
