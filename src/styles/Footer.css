@@ -11,3 +11,18 @@ Footer img {
     width: 301px;
     height: 86.02px;
 }
+
+.f_txt {
+    margin-top: 17px;
+    margin-left: 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f_txt3 {
+    display: flex;
+}
+
+.f_txt3-2  {
+    margin-left: 7px;
+}

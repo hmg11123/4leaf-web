@@ -6,11 +6,14 @@ class Footer extends React.Component {
         return (
             <footer>
                 <img src={footerLogo} className="footerlogo" />
-                <div>대전광역시 서구 계통로394번길</div>
-                <div>대표 윤상호</div>
-                <div>
-                    <div>010-4496-2415</div>
-                    <div>4leaf.ysh@gmail.com</div>
+                <div className="f_txt">
+
+                    <div className="f_txt1">대전광역시 서구 계통로394번길</div>
+                    <div className="f_txt2">대표 윤상호</div>
+                    <div className="f_txt3">
+                        <div className="f_txt3-1">010-4496-2415</div>
+                        <div className="f_txt3-2">4leaf.ysh@gmail.com</div>
+                    </div>
                 </div>
             </footer>
         )
