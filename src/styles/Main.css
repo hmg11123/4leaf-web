@@ -1,3 +1,12 @@
+@keyframes main-txtbox {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .Main {
     background-color: #ECECEC;
 }
@@ -20,6 +29,7 @@
     height: 229px;
     font-size: 40px;
     border-radius: 38px;
+    animation: main-txtbox 1.5s forwards;
 }
 
 .header__main .header__main-txtbox .txtbox-1 {
@@ -48,7 +58,7 @@
 }
 
 .h_icon .h_icon-arrow .arrow-right {
-    margin-left: 1177px;
+    margin-left: 1436px;
 }
 
 .h_icon .h_icon-arrow .arrow-left,
@@ -56,6 +66,10 @@
     position: absolute;
     color: #707070;
     font-size: 60px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
 
 }
 

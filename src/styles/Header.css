@@ -18,7 +18,7 @@
     color: white;
     position: absolute;
     top: 0;
-    animation: silde 0.5s forwards;
+    animation: silde 1s forwards;
 }
 
 .logo {
