@@ -24,7 +24,7 @@ class Main extends React.Component {
                             <FontAwesomeIcon icon={faCaretDown} className="caret" />
                         </div>
                         <button className="h_icon-chevron">
-                            <FontAwesomeIcon icon={faChevronCircleUp} className="chevron-up" />
+                            <FontAwesomeIcon icon={faChevronCircleUp} onClick={this._scrollUP} className="chevron-up" />
                         </button>
                     </div>
                 </div>
@@ -104,6 +104,10 @@ class Main extends React.Component {
                 </div>
             </main >
         )
+    }
+
+    _scrollUP = () => {
+        window.scrollTo(0, 0);
     }
 }
 

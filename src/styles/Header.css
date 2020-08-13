@@ -58,3 +58,7 @@
     font-size: 18px;
     color: #FFC300;
 }
+
+.header__main {
+    position: static;
+}
